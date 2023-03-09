@@ -42,17 +42,18 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_GET_ALL" enabled="false">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">D:/FOODBUY/PerfTestData1.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/PerfTestData1.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">true</boolProp>
           <boolProp name="recycle">true</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
           <boolProp name="stopThread">false</boolProp>
           <stringProp name="variableNames">GroupId,GroupMappingId,clusterid,DLbyid,userId,roleId,roleid2</stringProp>
+          <stringProp name="TestPlan.comments">/opt/perf-test-data</stringProp>
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_GET_GetDistributionError" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/getDistributionError.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/getDistributionError.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">transmissionOpcoId</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -64,7 +65,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_GET_fetchAuditData" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/fetchAuditData.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/fetchAuditData.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">entity,RefId,section,oper,actionBy,actionOn,newValue, </stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -76,7 +77,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_GET_viewOpSiteStatus" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/viewOpSiteStatus.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/viewOpSiteStatus.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">componentId </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -90,7 +91,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_(11)getMappingListByGroupId" enabled="false">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">D:/FOODBUY/PerfTestDataPost(8-9).csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/PerfTestDataPost(8-9).csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">true</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -100,7 +101,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_12SaveCustomerGroupMapping" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/saveCustomerGroupMapping.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/saveCustomerGroupMapping.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">SpTy2,GRID2,OPCOid,SPECod2,SPECVAL,DESC2</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -112,7 +113,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_SearchParent" enabled="true">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/searchParent.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/Documents/searchParent.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">opco,parent,DESC,Typ </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -124,7 +125,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_searchDLcluster" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/search.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/Documents/search.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">dlClusterName,dlClusterDescription</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -136,7 +137,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_SaveCustomerGroup" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/saveCustomerGroup.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/saveCustomerGroup.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">id,groupId,groupDescription,recipientAgencyId </stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -148,7 +149,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_CreateCustomerGroup" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/createCustomerGroup.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/createCustomerGroup.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">id,groupId,groupDescription,recipientAgencyId </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -160,7 +161,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_GetMappingListByGroupId" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/getMappingListByGroupId.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/getMappingListByGroupId.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">specType,specCode,specValue,description,startDate,endDate,opcoId,groupId,pageNum,pageSize </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -172,7 +173,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_SaveCustomerGroupMappingList" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/saveCustomerGroupMappingList.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/saveCustomerGroupMappingList.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">id,specType,opcoId,specCode,specValue,description </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -184,7 +185,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_getDL.csv" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/getDL.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/getDL.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">clusterName,dlName,dlDescription </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -196,7 +197,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_CreateDL" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/CreateDL.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/CreateDL.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">clusterName,dlName,dlDescription </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -208,7 +209,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_createUserRoles.csv" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/createUserRoles.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/createUserRoles.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">userId,roleId </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -220,7 +221,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_fetchAllUserID" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/fetchAllUserID.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/fetchAllUserID.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">userId</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -232,7 +233,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_createRole" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/createRole(name).csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/createRole(name).csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">roleName</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -244,7 +245,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_distributeCustomerGroup" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/distributeCustomerGroup.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/distributeCustomerGroup.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">comptId,distrnTyp,distrnListId,opcos </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -256,7 +257,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_searchDistributionTransmission" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/searchDistributionTransmission.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/searchDistributionTransmission.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">compoTyp,compoId,componentDescription,clusterName,distrnName,distrnDescription,distributedBy,distributedDate,opSite,custoGrpTypId </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -268,7 +269,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_searchCustomerGroup" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/searchCustomerGroup.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/searchCustomerGroup.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">grpTypId,grpId,grpDescn,recipientAgencyId,opCo</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -280,7 +281,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_copyDL" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/copyDL.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/Documents/copyDL.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">existingDLId,clusterId,dlName,dlDescription </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -292,7 +293,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_importCustomerGroup" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/importCustomerGroup.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/importCustomerGroup.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">Num</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -304,7 +305,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_createCluster" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/createCluster.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/createCluster.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">clusterName,clusterDescription</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -316,7 +317,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_POST_copyCustomerGroupMapping" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/copyCustomerGroupMapping.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/copyCustomerGroupMapping.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">copyGroupId,id,groupId,customerGroupTypeId,groupDescription,recipientAgencyId,distributionListId </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -330,7 +331,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_DELETE_DL/Cluster" enabled="false">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">D:/FOODBUY/PerfTestData3.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/PerfTestData3.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">true</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -340,7 +341,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_DeleteCustomerGroupMapping" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/deleteCustomerGroupMapping.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/deleteCustomerGroupMapping.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">GroupId</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -354,7 +355,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_PATCH_updateCluster" enabled="false">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">D:/Users/kpat8943/Documents/createCL3.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/createCL3.csv</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">true</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -364,7 +365,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_PATCH_updateDL" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/updateDL.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/updateDL.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">id2,clusterNme,dlNme,dlDescrn </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -376,7 +377,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_PATCH_UpdateDLOpcoMapping" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/updateDLOpcoMapping.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/updateDLOpcoMapping.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">updateid,clusterName1,dlNme2,dlDescrn2</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -388,7 +389,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV_PUT_saveRoleModules" enabled="false">
-          <stringProp name="filename">D:/Users/kpat8943/Documents/saveRoleModules.csv</stringProp>
+          <stringProp name="filename">/opt/perf-test-data/saveRoleModules.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">roleId1,moduleId </stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
