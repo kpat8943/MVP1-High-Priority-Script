@@ -1,0 +1,29 @@
+sort,groupId,groupName,userId
+$ABAAOME,1,USDA,2
+$ABCDEFG,2,Deviated Agreements,3
+$ABFLOW,1,USDA,4
+$ABMCHTS,2,Deviated Agreements,5
+$ATLANTA,1,USDA,6
+$AUSTIN,2,Deviated Agreements,7
+$AUSTIN2,1,USDA,8
+$BOSTON,2,Deviated Agreements,9
+$CHICAGO,1,USDA,10
+$CUSTGRP,2,Deviated Agreements,11
+$DMABC,1,USDA,12
+$DMR123,2,Deviated Agreements,13
+$DMR1234,1,USDA,14
+$DUGIBIN,2,Deviated Agreements,15
+$GLOBAL,1,USDA,16
+$GLOBAL2,2,Deviated Agreements,17
+$OPCONUM,1,USDA,18
+$TA67884,2,Deviated Agreements,19
+$TB67273,1,USDA,20
+$TB67393,2,Deviated Agreements,21
+$TB67452,1,USDA,22
+$TB67458,2,Deviated Agreements,23
+$TB67498,1,USDA,24
+$TB67502,2,Deviated Agreements,25
+$TB67505,1,USDA,26
+$TB67597,2,Deviated Agreements,27
+$TB67725,1,USDA,28
+$TB67851,2,Deviated Agreements,29
