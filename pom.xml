@@ -6,10 +6,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sysco.perfromance.engineering</groupId>
-    <artifactId>qPerfBaseProject</artifactId>
+    <artifactId>MVP1-High-Priority-Script</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>qPerfBaseProject</name>
+    <name>MVP1-High-Priority-Script</name>
     <url>http://maven.apache.org</url>
     <dependencies>
     </dependencies>
